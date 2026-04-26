@@ -12,7 +12,7 @@ using SyntecxhubUserApi.Data;
 namespace SyntecxhubUserApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260418060739_initial")]
+    [Migration("20260426215333_initial")]
     partial class initial
     {
         /// <inheritdoc />
@@ -47,7 +47,14 @@ namespace SyntecxhubUserApi.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("PasswordHash")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("Email")
+                        .IsUnique();
 
                     b.ToTable("Users");
                 });

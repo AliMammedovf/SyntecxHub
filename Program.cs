@@ -1,6 +1,12 @@
 
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using SyntecxhubUserApi.Business.Services;
 using SyntecxhubUserApi.Data;
+using SyntecxhubUserApi.Infrastructure.Repositories;
+using SyntecxhubUserApi.Infrastructure.Security;
+using SyntecxhubUserApi.Interfaces;
+using System.Text;
 
 namespace SyntecxhubUserApi
 {
@@ -17,8 +23,33 @@ namespace SyntecxhubUserApi
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+
+
             builder.Services.AddDbContext<AppDbContext>(options =>
                           options.UseNpgsql(builder.Configuration.GetConnectionString("Default")));
+
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<IPasswordHasher, PasswordHasher>();
+            builder.Services.AddScoped<ITokenService, TokenService>();
+            builder.Services.AddScoped<AuthService>();
+
+            builder.Services.AddAuthentication("Bearer")
+    .AddJwtBearer("Bearer", options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Audience"],
+
+            IssuerSigningKey = new SymmetricSecurityKey(
+                Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+        };
+    });
 
             var app = builder.Build();
 
@@ -31,6 +62,8 @@ namespace SyntecxhubUserApi
 
             app.UseHttpsRedirection();
 
+           
+            app.UseAuthentication();
             app.UseAuthorization();
 
 

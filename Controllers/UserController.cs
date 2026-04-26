@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using SyntecxhubUserApi.Business.DTOs;
 using SyntecxhubUserApi.Data;
 using SyntecxhubUserApi.Models;
 
@@ -21,108 +22,104 @@ namespace SyntecxhubUserApi.Controllers
         {
             var querry= _context.Users.AsQueryable();
 
-             List<object> result = new List<object>();
+            UserGetAllDTO users = new();
 
-            foreach (var user in querry.ToList())
-            {
-                result.Add(new
+            users.UserList= querry
+                .Select(u=>new UserGetOneDTO
                 {
-                    user.Id,
-                    user.Name,
-                    user.Email,
-                    user.CreatedDate
-                });
-
-
-            }
-
-
-            return  Ok(StatusCodes.Status200OK);
-           
+                    Name = u.Name,
+                    Email = u.Email
+                }).ToList();
+                   
+                    
+                
+            
+            return  Ok(users);
         }
 
         
         [HttpGet("{id}")]
         public IActionResult GetUser(int id)
         {
-            if (id == null) return BadRequest();
-
-            var user= _context.Users.Select(x=>new User
+            if (id == null)
             {
-                Id = x.Id,
-                Name = x.Name,
-                Email = x.Email,
-                CreatedDate = x.CreatedDate,
-            }).FirstOrDefault(x=>x.Id == id);
-           
+                return BadRequest("Id not found!");
+            }
+
+            var user= _context.Users.Where(p=>p.Id==id)
+                .Select(p=> new UserGetOneDTO
+                {
+                    Name=p.Name,
+                    Email=p.Email
+                }).First();
+
+            if (user == null)
+            {
+                return BadRequest("User not found!");
+            }
+
 
             return Ok(StatusCodes.Status200OK);
         }
 
         
         [HttpPost("Create-user")]
-        public IActionResult CreateUser(User user)
+        public async Task<IActionResult> CreateUser(UsercreatedDTO usercreatedDTO)
         {
+            var exsist= await _context.Users.AnyAsync(x=>x.Email==usercreatedDTO.Email);
 
-              if(user == null) return BadRequest();
+            if (exsist)
+            {
+               throw new Exception("Email already exsist!");
+            }
 
-            User newUser = new User();
 
 
-            _context.Users.Add(newUser);
-            _context.SaveChangesAsync();
+            User user = new();
+
+            user.Name = usercreatedDTO.Name;
+            user.Email = usercreatedDTO.Email;
+
+             _context.Users.Add(user);
+             await _context.SaveChangesAsync();
+            
+
         
-            //if(newUser.Email != user.Email)
-            //{
-                
-            //else
-            //{
-            //    return BadRequest("Email already exsist!");
-            //}
-
             return Ok(StatusCodes.Status201Created);
         }
 
        
         [HttpPut("{id}")]
-        public  IActionResult UpdateUser(int id)
+        public  IActionResult UpdateUser(int id, UserUpdateDTO userUpdateDTO)
         {
-          
-            var oldUser= _context.Users.FirstOrDefault(x=>x.Id == id);
+            if (id != userUpdateDTO.Id) return BadRequest();
 
-            User newUser= new User();
+            var exsist= _context.Users.FirstOrDefault(x=>x.Id==id);
 
-            if(oldUser==null) return BadRequest();
+            if(exsist==null) return NotFound();
 
-            if (newUser != null)
-            {
-                newUser.Id = oldUser.Id;
-                newUser.Email = oldUser.Email;
-                newUser.Name = oldUser.Name;
-                newUser.CreatedDate = oldUser.CreatedDate; 
+            exsist.Name= userUpdateDTO.Name;
+            exsist.Email= userUpdateDTO.Email;  
 
-            }
+            _context.SaveChanges();
 
-            return Ok(StatusCodes.Status204NoContent);
-               
-            
+            return Ok(StatusCodes.Status204NoContent); 
         }
 
-        
         [HttpDelete("{id}")]
         public IActionResult DeleteUser(int id)
         {
-            var oldUser= _context.Users.First(x=>x.Id == id);
+            var exsist= _context.Users.FirstOrDefault(x=>x.Id == id);
 
-            if (oldUser == null)
-                return NotFound();
+            if(exsist==null) return NotFound();
 
-            _context.Users.Remove(oldUser);
-            _context.SaveChangesAsync();
+            _context.Users.Remove(exsist);
+            _context.SaveChanges();
+            
+
+            
 
             return Ok(StatusCodes.Status204NoContent);
-           
-
         }
 
     }

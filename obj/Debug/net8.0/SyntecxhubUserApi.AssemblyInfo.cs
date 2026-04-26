@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SyntecxhubUserApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eef5a298c5eadd660a834f5c7664c87a70554f3b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SyntecxhubUserApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SyntecxhubUserApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
