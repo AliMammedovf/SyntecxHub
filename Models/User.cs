@@ -16,5 +16,7 @@ namespace SyntecxhubUserApi.Models
 
         [Required]
         public string PasswordHash { get; set; }
+
+        public List<Note> Notes { get; set; } = new();
     }
 }

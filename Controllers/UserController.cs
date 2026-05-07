@@ -6,7 +6,7 @@ using SyntecxhubUserApi.Models;
 
 namespace SyntecxhubUserApi.Controllers
 {
-    public class UserController : Controller
+    public class UserController : ControllerBase
     {
 
         private readonly AppDbContext _context;

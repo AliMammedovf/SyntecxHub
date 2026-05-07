@@ -7,6 +7,7 @@ namespace SyntecxhubUserApi.Controllers
 {
     [ApiController]
     [Route("api/auth")]
+    
     public class AuthController : ControllerBase
     {
 
@@ -15,6 +16,13 @@ namespace SyntecxhubUserApi.Controllers
         public AuthController(AuthService authService)
         {
             _authService = authService;
+        }
+
+        [Authorize]
+        [HttpGet("protected")]
+        public IActionResult Protected()
+        {
+            return Ok("secured data");
         }
 
         [HttpPost("register")]

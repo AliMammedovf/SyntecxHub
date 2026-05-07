@@ -3,60 +3,84 @@
   "WorkspaceRootPath": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\business\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:business\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\business\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:business\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\infrastructure\\security\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:infrastructure\\security\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\infrastructure\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:infrastructure\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\interfaces\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:interfaces\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\infrastructure\\repositories\\noterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:infrastructure\\repositories\\noterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\interfaces\\inoterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:interfaces\\inoterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\business\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:business\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\business\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:business\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\business\\dtos\\notedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:business\\dtos\\notedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\business\\dtos\\createnotedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:business\\dtos\\createnotedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\business\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:business\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\infrastructure\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:infrastructure\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\interfaces\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:interfaces\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\business\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|solutionrelative:business\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1FEDA6CF-0AE9-4557-B447-6988487E1DA8}|SyntecxhubUserApi.csproj|c:\\users\\v\u0026v\\desktop\\syntecxhubuserapi\\business\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -97,29 +121,46 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BadRequestException.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Business\\Exceptions\\BadRequestException.cs",
-              "RelativeDocumentMoniker": "Business\\Exceptions\\BadRequestException.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Business\\Exceptions\\BadRequestException.cs",
-              "RelativeToolTip": "Business\\Exceptions\\BadRequestException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T22:21:59.878Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NotesController.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Controllers\\NotesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NotesController.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Controllers\\NotesController.cs",
+              "RelativeToolTip": "Controllers\\NotesController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAA0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T20:37:02.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAuwBYAAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-26T21:49:10.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T03:48:36.819Z",
               "EditorCaption": ""
             },
             {
@@ -130,53 +171,27 @@
               "RelativeDocumentMoniker": "Infrastructure\\Security\\TokenService.cs",
               "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Infrastructure\\Security\\TokenService.cs",
               "RelativeToolTip": "Infrastructure\\Security\\TokenService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAmwBMAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAuwC0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-26T21:30:09.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Infrastructure\\Security\\PasswordHasher.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Security\\PasswordHasher.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Infrastructure\\Security\\PasswordHasher.cs",
-              "RelativeToolTip": "Infrastructure\\Security\\PasswordHasher.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA4AAAA",
+              "DocumentIndex": 9,
+              "Title": "INoteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Interfaces\\INoteRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\INoteRepository.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Interfaces\\INoteRepository.cs",
+              "RelativeToolTip": "Interfaces\\INoteRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T21:28:40.563Z",
+              "WhenOpened": "2026-05-04T20:31:53.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T21:25:55.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Business\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Business\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Business\\Services\\AuthService.cs",
-              "RelativeToolTip": "Business\\Services\\AuthService.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAuwDgAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T22:38:25.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "ITokenService.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Interfaces\\ITokenService.cs",
               "RelativeDocumentMoniker": "Interfaces\\ITokenService.cs",
@@ -190,77 +205,115 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T03:54:58.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Note.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Models\\Note.cs",
+              "RelativeDocumentMoniker": "Models\\Note.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Models\\Note.cs",
+              "RelativeToolTip": "Models\\Note.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T20:16:37.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-04-18T03:57:20.153Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IPasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Interfaces\\IPasswordHasher.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IPasswordHasher.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Interfaces\\IPasswordHasher.cs",
-              "RelativeToolTip": "Interfaces\\IPasswordHasher.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAyAAAA",
+              "DocumentIndex": 8,
+              "Title": "NoteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Infrastructure\\Repositories\\NoteRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\NoteRepository.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Infrastructure\\Repositories\\NoteRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\NoteRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T22:36:18.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAAACEAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T03:48:36.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Business\\DTOs\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "Business\\DTOs\\LoginDTO.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Business\\DTOs\\LoginDTO.cs",
-              "RelativeToolTip": "Business\\DTOs\\LoginDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T22:07:02.693Z",
+              "WhenOpened": "2026-05-04T20:33:24.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "RegisterDTO.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Business\\DTOs\\RegisterDTO.cs",
-              "RelativeDocumentMoniker": "Business\\DTOs\\RegisterDTO.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Business\\DTOs\\RegisterDTO.cs",
-              "RelativeToolTip": "Business\\DTOs\\RegisterDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Business\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Business\\Services\\AuthService.cs",
+              "RelativeToolTip": "Business\\Services\\AuthService.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAmwDgAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T22:06:16.138Z",
+              "WhenOpened": "2026-04-25T22:38:25.768Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "NoteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Business\\DTOs\\NoteDTO.cs",
+              "RelativeDocumentMoniker": "Business\\DTOs\\NoteDTO.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Business\\DTOs\\NoteDTO.cs",
+              "RelativeToolTip": "Business\\DTOs\\NoteDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T20:23:40.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateNoteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Business\\DTOs\\CreateNoteDTO.cs",
+              "RelativeDocumentMoniker": "Business\\DTOs\\CreateNoteDTO.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Business\\DTOs\\CreateNoteDTO.cs",
+              "RelativeToolTip": "Business\\DTOs\\CreateNoteDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T20:18:18.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T21:25:55.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
               "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-18T05:45:55.211Z",
               "EditorCaption": ""
@@ -273,14 +326,74 @@
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwDAAAAAJAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwDQAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-21T16:38:09.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Infrastructure\\Security\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Security\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Infrastructure\\Security\\PasswordHasher.cs",
+              "RelativeToolTip": "Infrastructure\\Security\\PasswordHasher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T21:28:40.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BadRequestException.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Business\\Exceptions\\BadRequestException.cs",
+              "RelativeDocumentMoniker": "Business\\Exceptions\\BadRequestException.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Business\\Exceptions\\BadRequestException.cs",
+              "RelativeToolTip": "Business\\Exceptions\\BadRequestException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T22:21:59.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IPasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Interfaces\\IPasswordHasher.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IPasswordHasher.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Interfaces\\IPasswordHasher.cs",
+              "RelativeToolTip": "Interfaces\\IPasswordHasher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T22:36:18.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Business\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Business\\DTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Business\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "Business\\DTOs\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T22:07:02.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Business\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "Business\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Business\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "Business\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T22:06:16.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "UserUpdateDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Business\\DTOs\\UserUpdateDTO.cs",
               "RelativeDocumentMoniker": "Business\\DTOs\\UserUpdateDTO.cs",
@@ -288,12 +401,11 @@
               "RelativeToolTip": "Business\\DTOs\\UserUpdateDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T16:44:13.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T16:44:13.38Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "UserGetAllDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Business\\DTOs\\UserGetAllDTO.cs",
               "RelativeDocumentMoniker": "Business\\DTOs\\UserGetAllDTO.cs",
@@ -301,12 +413,11 @@
               "RelativeToolTip": "Business\\DTOs\\UserGetAllDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T16:42:53.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T16:42:53.322Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "UserGetOneDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Business\\DTOs\\UserGetOneDTO.cs",
               "RelativeDocumentMoniker": "Business\\DTOs\\UserGetOneDTO.cs",
@@ -314,12 +425,11 @@
               "RelativeToolTip": "Business\\DTOs\\UserGetOneDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T16:42:21.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T16:42:21.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "UsercreatedDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Business\\DTOs\\UsercreatedDTO.cs",
               "RelativeDocumentMoniker": "Business\\DTOs\\UsercreatedDTO.cs",
@@ -327,29 +437,11 @@
               "RelativeToolTip": "Business\\DTOs\\UsercreatedDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T16:40:10.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2026-04-21T16:40:10.43Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T03:54:58.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Models\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Models\\BaseEntity.cs",
@@ -357,12 +449,11 @@
               "RelativeToolTip": "Models\\BaseEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T05:46:03.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T05:46:03.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "20260418035621_initial.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\SyntecxhubUserApi\\Migrations\\20260418035621_initial.cs",
               "RelativeDocumentMoniker": "Migrations\\20260418035621_initial.cs",
