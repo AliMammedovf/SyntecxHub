@@ -2,20 +2,23 @@
 using Microsoft.AspNetCore.Mvc;
 using SyntecxhubUserApi.Business.DTOs;
 using SyntecxhubUserApi.Business.Services;
+using SyntecxhubUserApi.Interfaces;
 
 namespace SyntecxhubUserApi.Controllers
 {
     [ApiController]
     [Route("api/auth")]
     
+    
     public class AuthController : ControllerBase
     {
 
-        private readonly AuthService _authService;
+       
+        private readonly IUserService _service;
 
-        public AuthController(AuthService authService)
+        public AuthController(IUserService service)
         {
-            _authService = authService;
+            _service = service;
         }
 
         [Authorize]
@@ -28,17 +31,17 @@ namespace SyntecxhubUserApi.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register(RegisterDTO dto)
         {
-            await _authService.RegisterAsync(dto);
-            return Ok("User created");
+            var result = await _service.RegisterAsync(dto);
+
+            return Ok(result);
         }
 
         [HttpPost("login")]
         public async Task<IActionResult> Login(LoginDTO dto)
         {
-            var token = await _authService.LoginAsync(dto);
-            if (token == null)
-                return Unauthorized("Email or Password invalid!");
-            return Ok(new { Token = token });
+            var token = await _service.LoginAsync(dto);
+
+            return Ok(token);
         }
 
         [Authorize]

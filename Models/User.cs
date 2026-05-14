@@ -18,5 +18,11 @@ namespace SyntecxhubUserApi.Models
         public string PasswordHash { get; set; }
 
         public List<Note> Notes { get; set; } = new();
+
+        // Role
+        public string Role { get; set; } = "User";
+
+        // Block system
+        public bool IsBlocked { get; set; } = false;
     }
 }

@@ -11,5 +11,7 @@ namespace SyntecxhubUserApi.Business.DTOs
         [Required]
         [EmailAddress]
         public string Email { get; set; }
+
+        public string Role { get; set; }
     }
 }

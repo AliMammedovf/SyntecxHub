@@ -33,30 +33,28 @@ namespace SyntecxhubUserApi
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<IPasswordHasher, PasswordHasher>();
             builder.Services.AddScoped<ITokenService, TokenService>();
-            builder.Services.AddScoped<AuthService>();
             builder.Services.AddScoped<INoteRepository, NoteRepository>();
-        ;
-
-            builder.Services.AddAuthentication("Bearer")
-     .AddJwtBearer("Bearer", options =>
+            builder.Services.AddScoped<IUserService, UserService>();
+            ;
+            builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+     .AddJwtBearer(options =>
      {
-         options.TokenValidationParameters = new TokenValidationParameters
-         {
-             ValidateIssuer = true,
-             ValidIssuer = builder.Configuration["Jwt:Issuer"],
+         options.TokenValidationParameters =
+             new TokenValidationParameters
+             {
+                 ValidateIssuer = false,
+                 ValidateAudience = false,
+                 ValidateLifetime = true,
+                 ValidateIssuerSigningKey = true,
 
-             ValidateAudience = true,
-             ValidAudience = builder.Configuration["Jwt:Audience"],
-
-             ValidateLifetime = true,
-
-             ValidateIssuerSigningKey = true,
-             IssuerSigningKey = new SymmetricSecurityKey(
-                 Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"])),
-
-             ClockSkew = TimeSpan.Zero
-         };
+                 IssuerSigningKey = new SymmetricSecurityKey(
+                     Encoding.UTF8.GetBytes(
+                         builder.Configuration["JWT:Secret"]!
+                     )
+                 )
+             };
      });
+            builder.Services.AddAuthorization();
 
             builder.Services.AddSwaggerGen(options =>
             {

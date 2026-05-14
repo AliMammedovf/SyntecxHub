@@ -11,7 +11,7 @@ namespace SyntecxhubUserApi.Controllers
 {
     [ApiController]
     [Route("api/note")]
-    [Authorize(Roles = "User")]
+    [Authorize]
     public class NotesController : ControllerBase
     {
         private readonly INoteRepository _repo;
@@ -41,6 +41,7 @@ namespace SyntecxhubUserApi.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> Create(CreateNoteDTO dto)
         {
             var note = new Note

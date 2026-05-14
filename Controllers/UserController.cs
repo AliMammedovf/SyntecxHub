@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SyntecxhubUserApi.Business.DTOs;
 using SyntecxhubUserApi.Data;
@@ -6,6 +7,9 @@ using SyntecxhubUserApi.Models;
 
 namespace SyntecxhubUserApi.Controllers
 {
+    [ApiController]
+    [Route("api/user")]
+    [Authorize]
     public class UserController : ControllerBase
     {
 
@@ -16,7 +20,7 @@ namespace SyntecxhubUserApi.Controllers
             _context = appDbContext;
         }
 
-       
+        [Authorize(Roles = "Admin")]
         [HttpGet("Get-all-users")]
         public IActionResult GetUsers()
         {
